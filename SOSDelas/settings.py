@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'paginas',
 ]
 
+AUTH_USER_MODEL = 'paginas.Usuario'
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
